@@ -1,9 +1,15 @@
 Features:
 
-Entries: Users can search and discover various activities and prominent landmarks within their specified area. They have the option to save these places and later provide reviews after visiting them
+Search and Discovery: Users can explore various activities and notable landmarks within their specified area. They have the ability to save these locations and later provide reviews after visiting them.
+Technologies Used:
 
-Technologies Used: Spring Boot for creating a powerful and modular web application. MySQL as a database manager for storing and retrieving entries.
+Spring Boot: Utilized for building a robust and modular web application.
+MySQL: Employed as the database manager for efficient storage and retrieval of entries.
+How to Run the Application:
 
-How to Run the Application: Clone the project to your local machine. Configure the MySQL database connection in the project's configuration files, datasbasa username + password is = api. Build and run the application with Spring Boot.
+Clone the project repository to your local machine.
+Configure the MySQL database connection in the project's configuration files. The default database username and password are set to "api".
+Build and run the application using Spring Boot.
+Note:
 
-Note: The objective of this project was to gain proficiency in utilizing an external API and constructing a service around it. This aimed to enhance comprehension of REST principles and its practical implementation.
+This project's primary objective was to develop proficiency in leveraging an external API and building a service around it. The overarching goal was to deepen understanding of REST principles and their practical implementation.
