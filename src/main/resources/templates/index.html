@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlygAPI</title>
+    <script src="script.js" defer></script>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            max-width: 1500px;
+            margin: 20px auto;
+        }
+
+        .search-section,
+        .todo-section {
+            background-color: black;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+
+
+        input[type="text"] {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            padding: 8px 16px;
+            background-color: white;
+            color: black;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        .scrollbar-list {
+            height: 700px;
+            overflow-y: auto;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            padding: 0;
+        }
+
+
+        li {
+            list-style: none;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="search-section">
+            <h2>Sök på stad</h2>
+            <input type="text" id="searchField" placeholder="Skriv in en stad...">
+            <button id="submitBtn">Sök</button>
+            <ul id="placeList" class="scrollbar-list"></ul>
+        </div>
+        <div class="todo-section">
+            <h2>TodoList</h2>
+            <ul id="savedPlaceList">
+            </ul>
+
+            <h2>Utförda resor</h2>
+            <hr>
+            <ul id="removedPlaceList">
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
