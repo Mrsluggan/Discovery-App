@@ -39,7 +39,7 @@ CREATE TABLE `removed_item` (
 
 INSERT INTO `removed_item` (`id`, `name`, `review`) VALUES
 (1, 'Upplandsmuseet', 'topel var där!'),
-(2, 'Upplands runinskrifter Fv1972;271', 'TOPEL BAJSADE PÅ STENNEN LOL');
+(2, 'Upplands runinskrifter Fv1972;271', 'Topel tyckte om det');
 
 -- --------------------------------------------------------
 
