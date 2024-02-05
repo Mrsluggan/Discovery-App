@@ -28,7 +28,6 @@ public class SavedItemRestController {
 
     @PostMapping("/saveItem")
     public SavedItem saveNewItem(@RequestBody SavedItem savedItem) {
-        System.out.println("bajs");
         return savedItemRepository.save(savedItem);
 
     }
